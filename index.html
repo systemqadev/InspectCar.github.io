@@ -3,26 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Твоя документация</title>
-  <!-- тема (можешь выбрать любую из доступных: vue, dark, clean и т.д.) -->
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <!-- сам Docsify -->
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </head>
 <body>
-  <!-- Навигационная панель -->
   <div id="navbar"></div>
-  
-  <!-- Основная область вывода -->
   <div id="app"></div>
-  
-  
   <script>
     window.$docsify = {
-      name: 'Мой проект',
-      repo: '',          // если хочешь, чтобы справа появилась ссылка «Edit on GitHub»
-      loadNavbar: true,  // грузим файл _navbar.md
-      loadSidebar: true, // грузим файл _sidebar.md
-      subMaxLevel: 2     // показывать в sidebar заголовки до <h2>
+      loadNavbar: true,
+      loadSidebar: true,
+      subMaxLevel: 2
     };
   </script>
 </body>
